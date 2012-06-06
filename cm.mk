@@ -1,5 +1,8 @@
 $(call inherit-product, device/htc/shooter/shooter.mk)
 
+# Set bootanimation res
+TARGET_BOOTANIMATION_NAME := vertical-540x960
+
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
